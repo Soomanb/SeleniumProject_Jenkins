@@ -19,6 +19,7 @@ public class NormalDemoTest
 		  String actual = driver.getTitle(); ;
 		 String expected = "Retail";
 		 assertEquals(actual, expected); 
+		 driver.quit();
 	  } 
 	
 	
